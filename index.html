@@ -881,7 +881,7 @@ async function submitTest() {
 }
 
 async function sendToSheets(record) {
-  if (SHEETS_URL === 'PENDIENTE_URL_GOOGLE_SCRIPT') {
+  if (SHEETS_URL === 'https://script.google.com/macros/s/AKfycbySBNCTJFIIMkLbyDAkZ7oiwtlMIonbXI9TLjRZfv1ZOiOJi-cCo-oDb-eKbuNBWCQV/exec') {
     console.warn('Google Sheets URL no configurada — solo se guarda en storage local.');
     return;
   }
